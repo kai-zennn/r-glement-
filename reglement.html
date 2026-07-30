@@ -1,1 +1,238 @@
-file:///C:/Users/lohan/Downloads/reglement.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Règlement — Némésis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#07050a;
+    --bg-alt:#0f0a14;
+    --pink:#ff2fb0;
+    --pink-soft:#ff8bd6;
+    --purple:#7a1fd1;
+    --text:#eae6ec;
+    --text-dim:#a297a8;
+    --border:#241a2c;
+    --card:#0f0a15;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(255,47,176,0.08), transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Oswald', Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 48px;
+    border-bottom:1px solid var(--border);
+    background:var(--bg-alt);
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  .logo{
+    font-family:'Permanent Marker', cursive;
+    font-size:1.5rem;
+    letter-spacing:1px;
+    color:var(--pink);
+    text-shadow:0 0 12px rgba(255,47,176,0.6);
+  }
+  nav a{
+    color:var(--text-dim);
+    text-decoration:none;
+    margin-left:32px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:0.82rem;
+    transition:color .2s;
+  }
+  nav a:hover, nav a.active{
+    color:var(--pink);
+  }
+  .hero{
+    text-align:center;
+    padding:56px 24px 36px;
+  }
+  .hero h1{
+    font-family:'Permanent Marker', cursive;
+    font-size:2.4rem;
+    letter-spacing:1px;
+    color:var(--pink-soft);
+    text-shadow:0 0 14px rgba(255,47,176,0.6), 0 0 40px rgba(122,31,209,0.3);
+  }
+  .hero p{
+    color:var(--text-dim);
+    margin-top:12px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:0.82rem;
+  }
+  main{
+    max-width:800px;
+    margin:0 auto;
+    padding:20px 24px 80px;
+    width:100%;
+  }
+  .section{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-left:3px solid var(--pink);
+    border-radius:6px;
+    padding:28px 32px;
+    margin-bottom:22px;
+    box-shadow:0 0 20px rgba(255,47,176,0.04);
+  }
+  .section h2{
+    font-family:'Permanent Marker', cursive;
+    font-size:1.1rem;
+    letter-spacing:1px;
+    margin-bottom:16px;
+    color:var(--pink-soft);
+    text-shadow:0 0 8px rgba(255,47,176,0.4);
+  }
+  .section ul{
+    list-style:none;
+  }
+  .section li{
+    position:relative;
+    padding-left:20px;
+    margin-bottom:12px;
+    color:var(--text-dim);
+    line-height:1.6;
+  }
+  .section li::before{
+    content:"—";
+    position:absolute;
+    left:0;
+    color:var(--pink);
+  }
+  .warning{
+    background:rgba(255,47,176,0.06);
+    border:1px solid var(--purple);
+    border-radius:6px;
+    padding:24px 32px;
+    margin-top:30px;
+  }
+  .warning h2{
+    font-family:'Permanent Marker', cursive;
+    color:var(--pink);
+    font-size:1.05rem;
+    letter-spacing:1px;
+    margin-bottom:10px;
+    text-shadow:0 0 8px rgba(255,47,176,0.5);
+  }
+  .warning p{
+    color:var(--text-dim);
+    line-height:1.6;
+  }
+  footer{
+    text-align:center;
+    padding:20px;
+    color:var(--text-dim);
+    font-size:0.78rem;
+    letter-spacing:1px;
+    border-top:1px solid var(--border);
+    background:var(--bg-alt);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Némésis</div>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="reglement.html" class="active">Règlement</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Règlement Officiel</h1>
+  <p>Organisation Criminelle — Némésis</p>
+</div>
+
+<main>
+
+  <div class="section">
+    <h2>🎭 1. Le RolePlay avant tout</h2>
+    <ul>
+      <li>Chaque action illégale doit avoir une véritable justification RP.</li>
+      <li>Les braquages réalisés uniquement pour gagner de l'argent sont interdits.</li>
+      <li>Lors d'un braquage, d'un enlèvement ou de toute autre interaction, laissez toujours une possibilité de jouer la scène à la personne en face.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔫 2. Conflits et affrontements</h2>
+    <ul>
+      <li>Aucun échange de tirs ou attaque ne peut avoir lieu sans une raison RP crédible.</li>
+      <li>Le FearRP est obligatoire : si votre personnage est en infériorité ou sous la menace, il doit réagir de manière cohérente.</li>
+      <li>Le RDM (tuer sans raison RP) et le VDM (écraser volontairement sans contexte RP) sont strictement interdits.</li>
+      <li>Seuls les membres déjà présents et impliqués dans la scène peuvent intervenir.</li>
+      <li>Après un PK, il est interdit de revenir immédiatement sur les lieux afin de reprendre le combat (NLR).</li>
+      <li>Faire intervenir des membres prévenus via Discord ou tout autre moyen HRP constitue du MetaGaming et sera considéré comme une faute grave.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>💰 3. Braquages et opérations importantes</h2>
+    <ul>
+      <li>Tous les braquages doivent respecter le niveau DEFCON en vigueur.</li>
+      <li>Le nombre minimum de policiers ainsi que le nombre maximum de participants doivent être respectés selon le type d'opération.</li>
+      <li>Les prises d'otages doivent rester crédibles et permettre une véritable négociation.</li>
+      <li>Les gros braquages ne peuvent pas être enchaînés sans pause. Un délai RP doit être respecté entre deux opérations majeures afin de préserver l'immersion.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🩸 4. Vols, rackets et enlèvements</h2>
+    <ul>
+      <li>Les vols sur les joueurs doivent rester cohérents et justifiés. Il est interdit de dépouiller systématiquement une personne de tous ses biens.</li>
+      <li>Un kidnapping doit être joué jusqu'au bout : demande de rançon, négociation, conditions de libération, etc.</li>
+      <li>Il est interdit de retenir un joueur prisonnier pendant une durée excessive.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>⚔️ 5. Guerres entre organisations</h2>
+    <ul>
+      <li>Toute guerre entre groupes doit être précédée d'un contexte et d'un motif RP sérieux.</li>
+      <li>Les affrontements doivent uniquement avoir lieu dans les zones prévues à cet effet (Zone Gunfight).</li>
+      <li>En cas de conflit majeur, le staff peut intervenir afin d'encadrer le déroulement de la guerre.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🚫 6. Règles générales</h2>
+    <ul>
+      <li>Il est interdit d'utiliser une Zone Safe pour échapper à un affrontement.</li>
+      <li>Les nouveaux joueurs ne doivent jamais être pris pour cible sans raison RP valable.</li>
+      <li>Se déconnecter volontairement pendant une scène RP ou un conflit (Combat Log) est strictement interdit.</li>
+      <li>Toute exploitation de bug ou de faille du serveur afin d'obtenir un avantage est formellement interdite.</li>
+    </ul>
+  </div>
+
+  <div class="warning">
+    <h2>⚠️ Important</h2>
+    <p>Le non-respect de ce règlement pourra entraîner des sanctions allant du simple avertissement jusqu'à l'exclusion définitive de l'organisation Némésis, selon la gravité des faits.</p>
+  </div>
+
+</main>
+
+<footer>
+  © Némésis — Tous droits réservés
+</footer>
+
+</body>
+</html>
